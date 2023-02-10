@@ -1,7 +1,9 @@
 import React from 'react';
 
 import { motion } from 'framer-motion';
-import { images } from '../../constants'
+import { images } from '../../constants';
+import { AppWrap } from '../../wrapper';
+
 import './Header.scss'
 const Header = () => {
     const showImg = [images.typescript, images.react, images.nestjs]
@@ -68,4 +70,4 @@ const Header = () => {
     </div>
 }
 
-export default Header;
+export default AppWrap(Header, 'home');

@@ -17,13 +17,14 @@ import redux from '../static/img/redux.png';
 import sass from '../static/img/sass.png';
 import typescript from '../static/img/typescript.png';
 import vue from '../static/img/vue.png';
+import nestjs from '../static/img/nest.svg'
 
 import about01 from '../static/img/about01.png';
 import about02 from '../static/img/about02.png';
 import about03 from '../static/img/about03.png';
 import about04 from '../static/img/about04.png';
 
-import profile from '../static/img/profile.png';
+import profile from '../static/img/profile.JPG';
 import circle from '../static/img/circle.svg';
 import logo from '../static/img/logo.png';
 
@@ -69,4 +70,5 @@ export default {
     nb,
     skype,
     spotify,
+    nestjs
 };

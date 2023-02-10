@@ -9,6 +9,7 @@
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
+    "manage": "sanity manage",
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [
