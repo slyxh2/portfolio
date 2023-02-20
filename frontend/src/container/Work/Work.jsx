@@ -16,6 +16,7 @@ const Work = () => {
         const query = '*[_type == "works"]';
 
         client.fetch(query).then((data) => {
+            console.log(data);
             setWorks(data);
             setFilterWork(data);
         });
@@ -62,7 +63,7 @@ const Work = () => {
                         <div
                             className="app__work-img app__flex"
                         >
-                            {/* <img src={urlFor(work.imgUrl)} alt={work.name} /> */}
+                            <img src={urlFor(work.imgUrl)} alt={work.name} />
 
                             <motion.div
                                 whileHover={{ opacity: [0, 1] }}
